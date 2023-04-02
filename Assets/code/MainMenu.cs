@@ -24,7 +24,7 @@ public class MainMenu : MonoBehaviour
     public void QuitGame()
     {
         Application.Quit(); //for the actual game
-        UnityEditor.EditorApplication.isPlaying = false; //for the unity player
+        //UnityEditor.EditorApplication.isPlaying = false; //for the unity player
     }
 
     public void Backtothemainmenufuckboy()

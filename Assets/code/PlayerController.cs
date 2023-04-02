@@ -42,10 +42,6 @@ public class PlayerController : MonoBehaviour
             transform.rotation = Quaternion.RotateTowards(transform.rotation, Quaternion.Euler(targetRotation), Time.deltaTime * transitionRotationSpeed);  
             }
         }
-        else
-        {
-            targetGridPos = prevTargetGridPos;
-        }
     }
 
     public void RotateLeft() {
